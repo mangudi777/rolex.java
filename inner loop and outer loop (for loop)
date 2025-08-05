@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class main {
+
+    public static void main(String[] args) {
+        int i;
+        int j;
+        for(i=1;i<=2;i++){
+            
+                System.out.println("outerloop"+ i);
+            
+            
+            for( j=1;j<=3;j++){
+                
+                    System.out.println("innerloop"+ j);
+                
+            }
+        }
+        
+        
+    }
+}
