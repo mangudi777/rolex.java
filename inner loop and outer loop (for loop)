@@ -1,3 +1,14 @@
+The break statement was introduced with the switch statement in order to keep multiple
+cases from executing. You can prematurely end other control blocks such as a loop by
+executing a break statement. Because you do not want the loop to end each time, the
+break statement is placed inside a conditional statement (if). 
+
+Syntax:
+
+break;
+
+
+
 import java.util.Scanner;
 class main {
 
