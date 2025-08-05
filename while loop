@@ -1,3 +1,18 @@
+The while loop checks a condition before entering the loop, then executes the loop block
+if the condition is true. The condition must be a boolean expression contained in
+parentheses like the if statement. The syntax for the while loop is as follows:
+
+Syntax:
+
+while (boolean_expression)
+{
+ // loop block
+}
+
+
+
+
+
 import java.util.Scanner;
 
 class main {
