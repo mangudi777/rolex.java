@@ -1,0 +1,71 @@
+import java.util.Scanner;
+
+
+
+class Studentdata {
+
+    public static void main(String[] args) {
+
+        Scanner data = new Scanner(System.in);
+
+
+
+        System.out.println("Enter your Name");
+
+        String name = data.nextLine();
+
+
+
+        System.out.println("Enter your Age");
+
+        byte age = data.nextByte();
+
+
+
+        System.out.println("Enter your Birth year");
+
+        short year = data.nextShort();
+
+
+
+        System.out.println("Enter your Gender (M/F/O)");
+
+        char gender = data.next().charAt(0);
+
+
+
+        System.out.println("Enter your Height (in meters)");
+
+        float height = data.nextFloat();
+
+
+
+        System.out.println("Enter your SPR.No");
+
+        int sprNo = data.nextInt();
+
+
+
+        System.out.println("Enter your Registration Number");
+
+        long regNo = data.nextLong();
+
+
+
+        System.out.println("Enter your CGPA");
+
+        double cgpa = data.nextDouble();
+
+
+
+        System.out.println("Do you have a driving license? (true/false)");
+
+        boolean driver = data.nextBoolean();
+
+        
+
+        
+
+    }
+
+}
