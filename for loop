@@ -1,4 +1,13 @@
-order:
+The while loop and do while loop are useful for many situations, but you must control
+the boolean condition, ensuring that the variables change and eventually make the
+condition false. If you know how many times you want to iterate, the for loop is
+probably the best choice. The syntax is as follows:
+
+Syntax:
+for (initial_condition; boolean_expression; iteration)
+{
+ // loop block
+}
 
 import java.util.Scanner;
 class main {
