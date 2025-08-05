@@ -1,3 +1,16 @@
+Because the condition is checked first in a while loop, it is possible that the loop may
+never execute. This second iteration type ensures that the loop block executes at least
+once by placing the condition at the end of the loop. The syntax for the do while loop is
+as follows:
+
+Syntax:
+do
+{
+ // loop block
+} while (boolean_expression);
+
+
+
 import java.util.Scanner;
 class main {
 
