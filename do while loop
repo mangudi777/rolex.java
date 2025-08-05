@@ -1,0 +1,38 @@
+import java.util.Scanner;
+class main {
+
+    public static void main(String[] args) {
+
+        Scanner data = new Scanner(System.in);
+        
+        int A;
+        System .out.println("Enter your number:");
+        A=data.nextInt();
+        
+        do{
+          if(A%2==0){
+                
+                System.out.println(A+":IS A EVEN NUMBER");
+                
+                
+                A--;
+            }
+                
+            else{
+                System.out.println(A+":IS A ODD NUMBER");
+                
+                A--;
+            }  
+        }
+        
+        while(A>=0);
+            
+            
+            
+            
+            
+            
+            
+            
+    }
+    }
