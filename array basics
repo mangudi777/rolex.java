@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+     String[] array = {"dhoni","virat","rohit"};
+     array[1] = "virat";
+     System.out.println(array[1]);
+        
+    }
+}
+
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+     String[] array = {"dhoni","virat","rohit","pandya"};
+     
+     
+    
+         
+          for(int i=0;i<array.length;i++){
+              System.out.println(array[i]);
+           }
+        
+    }
+}
+
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+     
+     Scanner scan = new Scanner(System.in);
+     System.out.println("enter the no of elements");
+     int size = scan.nextInt();
+     
+     int[] arr = new int[size];
+     
+     System.out.println("enter the elements");
+     for(int i=0;i<size;i++){
+         arr[i] = scan.nextInt();
+         
+     }
+     for(int num: arr){
+         System.out.println(num);
+     }
+     scan.close();
+    }
+}
