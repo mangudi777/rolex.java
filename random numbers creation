@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	
+		Scanner data =  new Scanner(System.in);
+		System.out.println("enter the starting number:");
+		int SN = data.nextInt();
+		
+		System.out.println("enter the ending number:");
+	    int EN = data.nextInt();
+	   
+	   
+	    double randomNumber = (SN + Math.random() * ((SN+EN)+1));
+	    System.out.println(randomNumber);
+		
+		
+	}
+}
