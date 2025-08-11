@@ -1,0 +1,63 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner data = new Scanner(System.in);  
+
+        System.out.print("Enter a number: ");   
+        int num = data.nextInt();               
+        boolean prime = true;                   
+
+        if (num <= 1) {                         
+            prime = false;                      
+        } else {                                
+            for (int i = 2; i < num; i++) {     
+                if (num % i == 0) {             
+                    prime = false;              
+                    break;                      
+                }
+            }
+        }
+
+        if (prime) {                            
+            System.out.println("It is a Prime number.");
+        } else {
+            System.out.println("It is Not a Prime number.");
+        }
+
+        data.close();                           
+    }
+}
+
+
+
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner data = new Scanner(System.in);  
+
+        System.out.print("Enter a number: ");   
+        int num = data.nextInt();               
+
+        
+
+        for (int i = 2; i <= num; i++) {   
+            boolean prime = true;
+
+            for (int j = 2; j <= i / 2; j++) {  
+                if (i % j == 0) {
+                    prime = false;
+                    break;
+                }
+            }
+
+            if (prime) {
+                System.out.println(i);   
+            }
+        }
+
+        
+    }
+}
